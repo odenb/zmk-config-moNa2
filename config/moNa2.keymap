@@ -48,10 +48,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R        &kp T                                        &kp Y            &kp U  &lt 5 I    &kp O    &mt BACKSPACE P
-&mt LC(LCTRL) A   &kp S         &kp D         &kp F        &kp G                       &kp TAB          &kp H            &kp J  &kp K      &kp L    &kp ENTER
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp B        &lt 4 COLON    &kp RIGHT_ALT    &kp N            &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT
-&lt 4 A           &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 SPACE  &lt 1 SPACE  &kp SPACE      &lt 1 LC(SPACE)  &lt 2 BACKSPACE                             &kp BACKSPACE
+&kp Q             &kp W         &kp E         &kp R        &kp T                                      &kp Y            &kp U  &lt 5 I    &kp O    &mt BACKSPACE P
+&mt LC(LCTRL) A   &kp S         &kp D         &kp F        &kp G                       &kp TAB        &kp H            &kp J  &kp K      &kp L    &kp ENTER
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V        &kp B        &lt 4 COLON    &kp RIGHT_ALT  &kp N            &kp M  &kp COMMA  &kp DOT  &kp RIGHT_SHIFT
+&lt 4 A           &kp LEFT_WIN  &kp LEFT_ALT  &lt 3 SPACE  &lt 1 SPACE  &kp SPACE      &lt 1 ENTER    &lt 2 BACKSPACE                             &kp BACKSPACE
             >;
 
             sensor-bindings =
@@ -75,7 +75,7 @@
 &kp MINUS                   &kp F1   &kp F2   &kp F3   &kp PLUS                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp BACKSLASH
 &kp SLASH                   &kp F4   &kp F5   &kp F6   &kp ASTERISK               &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
 &mt LEFT_SHIFT KP_NUMBER_0  &kp F7   &kp F8   &kp F9   &kp PERIOD    &kp EQUAL    &kp QMARK       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans                      &kp F10  &kp F11  &kp F12  &trans        &trans       &trans          &trans                                                                     &kp PIPE
+&trans                      &kp F10  &kp F11  &kp F12  &trans        &trans       &kp C_RESET     &trans                                                                     &kp PIPE
             >;
 
             sensor-bindings = <&scroll_up_down>;
