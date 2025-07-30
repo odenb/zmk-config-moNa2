@@ -54,7 +54,9 @@
 &kp Q             &trans  &kp LEFT_ALT  &lt 3 SPACE  &lt 1 SPACE  &lt 2 SPACE    &lt 2 ENTER    &lt 1 BACKSPACE                             &kp P
             >;
 
-            sensor-bindings = <&scroll_up_down>, <&inc_dec_kp LC(C) LC(V)>;
+            sensor-bindings =
+                <&scroll_up_down>,
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         layer_1 {
