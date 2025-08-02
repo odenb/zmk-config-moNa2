@@ -72,8 +72,8 @@
 
         layer_2 {
             bindings = <
-&kp MINUS                   &kp F1   &kp F2   &kp F3   &kp PLUS                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp MINUS        &kp BACKSLASH
-&kp SLASH                   &kp F4   &kp F5   &kp F6   &kp ASTERISK                &kp TAB        &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR       &kp PERCENT
+&kp EXCLAMATION             &kp F1   &kp F2   &kp F3   &kp PLUS                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp MINUS        &kp BACKSLASH
+&kp SLASH                   &kp F4   &kp F5   &kp F6   &kp ASTERISK                &kp TAB        &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR       &kp QUESTION
 &mt LEFT_SHIFT KP_NUMBER_0  &kp F7   &kp F8   &kp F9   &kp PERIOD    &kp EQUAL     &kp RIGHT_ALT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH
 &trans                      &kp F10  &kp F11  &kp F12  &trans        &sys_reset    &kp ENTER      &trans                                                                &kp PIPE
             >;
