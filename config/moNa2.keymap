@@ -64,7 +64,7 @@
 &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3    &kp NUMBER_4     &kp N5                                        &kp N6     &kp N7     &kp N8     &kp N9  &kp N0
 &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp UP_ARROW                 &kp EXCLAMATION  &kp MINUS  &mkp LCLK  &mkp RCLK  &trans  &kp QUESTION
 &trans        &trans          &kp LS(LC(Z))   &kp LC(Z)        &kp LC(V)     &kp LC(C)      &trans           &trans     &trans     &trans     &trans  &trans
-&trans        &trans          &trans          &kp LC(X)        &trans        &bootloader    &bootloader      &trans                                   &kp B
+&kp ENTER     &trans          &trans          &kp LC(X)        &trans        &bootloader    &bootloader      &trans                                   &kp B
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -95,8 +95,8 @@
         layer_4 {
             bindings = <
 &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp BACKSPACE                         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS                 &trans       &trans        &trans        &trans        &trans        &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL      &trans    &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
+&trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS              &trans       &trans        &trans        &trans        &trans        &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_EQUAL   &trans    &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
 &trans  &kp NUMBER_0  &trans        &trans        &trans         &trans    &trans       &trans                                                  &bt BT_CLR_ALL
             >;
 
